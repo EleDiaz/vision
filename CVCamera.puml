@@ -1,0 +1,28 @@
+@startuml
+
+class CvCamera {
+    This offers a comunication
+    between kivy program and
+    opencv3
+    --Variables--
+    -capure :: cv2.capture
+    --Methods--
+    +take_image : Image
+    +with : special method
+}
+
+interface List
+
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

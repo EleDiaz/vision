@@ -1,0 +1,1 @@
+from .cvcamera import CvCamera
